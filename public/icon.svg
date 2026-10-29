@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#312e81" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  <!-- Academic Mortarboard Cap + Checklist Symbol -->
+  <g filter="url(#shadow)" transform="translate(64, 64)">
+    <!-- Mortarboard Top -->
+    <path d="M192 48 L340 120 L192 192 L44 120 Z" fill="#ffffff" />
+    <path d="M340 120 L356 220" stroke="#fcd34d" stroke-width="8" stroke-linecap="round" />
+    <circle cx="356" cy="226" r="10" fill="#f59e0b" />
+    <!-- Mortarboard Cap Base -->
+    <path d="M100 152 V210 C100 250 284 250 284 210 V152" fill="#e0e7ff" stroke="#c7d2fe" stroke-width="4" />
+    <!-- Task Check Badge -->
+    <rect x="74" y="240" width="236" height="100" rx="20" fill="#ffffff" />
+    <!-- Checklist items inside badge -->
+    <circle cx="114" cy="272" r="14" fill="#10b981" />
+    <path d="M108 272 L112 276 L120 268" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="140" y="267" width="130" height="10" rx="5" fill="#4f46e5" />
+    
+    <circle cx="114" cy="308" r="14" fill="#f59e0b" />
+    <path d="M114 302 V310 L118 312" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+    <rect x="140" y="303" width="95" height="10" rx="5" fill="#94a3b8" />
+  </g>
+</svg>

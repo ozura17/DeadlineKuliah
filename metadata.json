@@ -1,0 +1,6 @@
+{
+  "name": "DeadlineKuliah",
+  "description": "Pengingat tugas kuliah mahasiswa dengan fitur pintar Kerjakan Hari Ini, urutan tenggat terdekat, dan jadwal kuliah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
